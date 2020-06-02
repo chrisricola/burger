@@ -67,7 +67,7 @@ Having an active and healthy commit history on GitHub is important for your futu
 
 1. Inside your `burger` directory, create a folder named `db`.
 
-2. In the `db` folder, create a file named `schema.sql`. Write SQL queries this file that do the following:
+2. In the `db` folder, create a file named `ls`. Write SQL queries this file that do the following:
 
    * Create the `burgers_db`.
    * Switch to or use the `burgers_db`.
