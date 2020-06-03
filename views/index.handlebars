@@ -3,9 +3,9 @@
 <h2>Make yo' own Burger!</h2>
 
 <ul>
-  {{#each burger}}
+  {{#each burgers}}
     {{#unless devoured}}
-      {{> burger/burger-block devoured=true}}
+        <p>{{burger_name}}</p> <button class="update" id={{id}}>Devour</button>
     {{/unless}}
   {{/each}}
 </ul>
@@ -13,9 +13,9 @@
 <h2>Burgers ready to be devoured!</h2>
 
 <ul>
-  {{#each burger}}
+  {{#each burgers}}
     {{#if devoured}}
-      {{> burger/burger-block devoured=false}}
+      <p>{{burger_name}}</p> <button class="delete" id={{id}}>Delete</button>
     {{/if}}
   {{/each}}
 </ul>
@@ -30,9 +30,8 @@
 
   <div class="form-group">
     <label for="devoured">devoured?</label><br>
-    <input type="radio" name="devoured" value="1" Ready to Eat> devoured!<br>
-    <input type="radio" name="devoured" value="0"> Full
+    <input type="radio" name="devoured" id="dev"> devoured?<br>
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button id="addBurger" type="submit">Add Burger</button>
 </form>
