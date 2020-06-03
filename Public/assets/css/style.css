@@ -27,6 +27,7 @@ h2 {
   font-family: 'Bungee Shade', cursive;
   font-size: 40px;
   color: rgb(75, 21, 21);
+  margin-left: 70px;
 }
 p {
  font-family: 'Monoton', cursive;
@@ -69,6 +70,7 @@ li {
     color: rgb(11, 6, 6);
     font-family: 'Monoton', cursive;
     font-size: larger;
+    margin-left: 70px;
   }
 
   #addBurger{
@@ -83,4 +85,5 @@ li {
     border-radius: 15px;
     box-shadow: 0 9px rgb(40, 39, 39);
     margin-bottom: 40px;
+    margin-left: 70px;
   }
